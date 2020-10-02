@@ -7,9 +7,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;700&family=Julius+Sans+One&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="Lato/style.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
 </head>
 <body>
+    <div class="wrapper">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">The YAY company</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,7 +38,7 @@
         </div>
       </nav>
 
-      <h1 class="home">News</h1>
+      <h1>News</h1>
       <nav aria-label="...">
         <ul class="pagination pagination-md">
           <li class="page-item active" aria-current="page">
@@ -52,7 +55,7 @@
       <div class="container">
         <div class="row">
            <div class="col-md-6 col-lg-3">
-            <div class="card-deck">
+            <div class="card news">
                 <div class="card-img-top embed-responsive embed-responsive-4by3" style="background-image: url(images/news-1.png);"></div>
                 <div class="card-body">
                   <h5 class="card-title">Nunc porttitor vel</h5>
@@ -62,7 +65,7 @@
               </div>
            </div>
            <div class="col-md-6 col-lg-3">
-            <div class="card-deck">
+            <div class="card news">
                 <div class="card-img-top embed-responsive embed-responsive-4by3" style="background-image: url(images/news-2.png);"></div>
                 <div class="card-body">
                   <h5 class="card-title">Nunc porttitor vel</h5>
@@ -72,7 +75,7 @@
               </div>
            </div>
            <div class="col-md-6 col-lg-3">
-            <div class="card-deck">
+            <div class="card news">
                 <div class="card-img-top embed-responsive embed-responsive-4by3" style="background-image: url(images/news-3.png);"></div>
                 <div class="card-body">
                   <h5 class="card-title">Nunc porttitor vel</h5>
@@ -82,7 +85,7 @@
               </div>
            </div>
            <div class="col-md-6 col-lg-3">
-            <div class="card-deck">
+            <div class="card news">
                 <div class="card-img-top embed-responsive embed-responsive-4by3" style="background-image: url(images/news-4.png);"></div>
                 <div class="card-body">
                   <h5 class="card-title">Nunc porttitor vel</h5>
@@ -92,7 +95,7 @@
               </div>
           </div>
           <div class="col-md-6 col-lg-3">
-            <div class="card-deck">
+            <div class="card news">
                 <div class="card-img-top embed-responsive embed-responsive-4by3" style="background-image: url(images/news-5.png);"></div>
                 <div class="card-body">
                   <h5 class="card-title">Nunc porttitor vel</h5>
@@ -102,7 +105,7 @@
               </div>
           </div>
           <div class="col-md-6 col-lg-3">
-            <div class="card-deck">
+            <div class="card news">
                 <div class="card-img-top embed-responsive embed-responsive-4by3" style="background-image: url(images/news-6.png);"></div>
                 <div class="card-body">
                   <h5 class="card-title">Nunc porttitor vel</h5>
@@ -112,7 +115,7 @@
               </div>
           </div>
           <div class="col-md-6 col-lg-3">
-            <div class="card-deck">
+            <div class="card news">
                 <div class="card-img-top embed-responsive embed-responsive-4by3" style="background-image: url(images/news-7.png);"></div>
                 <div class="card-body">
                   <h5 class="card-title">Nunc porttitor vel</h5>
@@ -122,7 +125,7 @@
               </div>
           </div>
           <div class="col-md-6 col-lg-3">
-            <div class="card-deck">
+            <div class="card news">
                 <div class="card-img-top embed-responsive embed-responsive-4by3" style="background-image: url(images/news-8.png);"></div>
                 <div class="card-body">
                   <h5 class="card-title">Nunc porttitor vel</h5>
@@ -146,8 +149,10 @@
           <li class="page-item"><a class="page-link" href="#">4</a></li>
         </ul>
       </nav>
+    </div>
     <footer>
-        <div><i class="fa fa-vimeo"></i> <i class="fa fa-youtube"></i></div>
+        <div><i class="fa fa-vimeo"></i>
+            <img src="images/youtube.png"></div>
         <div>hello@yay.com</div>
         <div>Copyright 2020</div>
     </footer>
