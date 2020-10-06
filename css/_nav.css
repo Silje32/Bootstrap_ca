@@ -19,3 +19,11 @@
 .navbar .navbar-nav .active > .nav-link {
     background-color: white;
 }
+form button {
+    background-color: var(--primary-colour) !important;
+    color: white;
+    font-family: "Lato", sans-serif;
+}
+form button .submit {
+    color: white;
+}
