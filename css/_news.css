@@ -1,0 +1,57 @@
+nav .page-item .active > .page-link {
+    color: var(--primary-colour);
+}
+
+.pagination .page-item  {
+    color: var(--primary-colour);
+}
+
+.page-link .active {
+    background-color: var(--primary-colour);
+}
+
+.news-block {
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.news-block p {
+    font-style: "Lato", sans-serif;
+    font-weight: medium;
+    font-size: 18px;
+}
+
+.news-block .btn {
+    background-color: #767676;
+    color: white;
+    border: none;
+    position: relative;
+    text-transform: uppercase;
+    width: 100%;
+    z-index: 1;
+}
+
+.news-block .btn:before {
+    background-color: var(--primary-colour)  !important;
+    width: 140px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    height: 100%;
+}
+
+@media (min-width: 992px) {
+    .home-block .btn {
+        width: 50%;
+    }
+
+    .card-img {
+        background: no-repeat;
+        background-position: center center;
+    }
+
+}
