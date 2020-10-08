@@ -1,13 +1,28 @@
-nav .page-item .active > .page-link {
-    color: var(--primary-colour);
+nav .pagination {
+    margin-left: 80px;
+    margin-top: 60px;
 }
 
-.pagination .page-item  {
-    color: var(--primary-colour);
-}
-
-.page-link .active {
+nav .pagination .active > .page-link {
     background-color: var(--primary-colour);
+    border-color: var(--primary-colour);
+
+}
+nav .pagination .page-link {
+    color: var(--primary-colour);
+    border-color: var(--primary-colour);
+}
+
+.card-title {
+    color: black;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+}
+
+.card-text {
+    color: #767676;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
 }
 
 .news-block {
