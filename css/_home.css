@@ -23,19 +23,21 @@
 .tv {
     position: relative;
     top: 1px;
-    left: -480px;
+    left: -420px;
 }
 
 .cards {
     position: relative;
     top: 40px;
-    left: 80px;
+    left: 40px;
+    padding: 30px;
+    max-width: 1200px;
 }
 
-.nav-link {
+.nav .nav-tabs .card-header-tabs .nav-link {
     color: var(--primary-colour) !important;
 }
 
-.nav-link .active {
+.nav .nav-tabs .active > .nav-link {
     color: #767676;
 }
