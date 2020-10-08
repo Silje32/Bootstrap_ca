@@ -26,7 +26,7 @@
 .form-control {
     position: relative;
     top: 2px;
-    right: 80px;
+    right: 60px;
 }
 
 /* Search button */
@@ -41,6 +41,6 @@
     height: 250%;
     position: relative;
     top: 0px;
-    right: 90px;
+    right: 75px;
 }
 
