@@ -1,0 +1,74 @@
+.contact {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-background {
+    background-color: #EFEFEF;
+    padding: 20px;
+}
+
+.form-control {
+    border: none;
+    padding: 10px;
+    width: 90%;
+    margin-left: 60px;
+}
+.form-group {
+    color: #767676;
+    margin-left: 40px;
+}
+
+.input-group-text {
+    margin-left: 5px;
+    color: white;
+    background-color: #C7C7C7;
+}
+
+.contact-form .website {
+    margin-left: 40px;
+    color: #767676;
+}
+
+.contact-form .btn {
+    background-color: #767676;
+    border: none;
+    width: 85%;
+    margin-left: 40px;
+    margin-bottom: 25px;
+    padding: 10px;
+    color: white;
+}
+
+.form-check {
+    color: #767676;
+}
+
+.row {
+    margin-top: 100px;
+}
+
+.icons {
+    position: relative;
+    top: 100px;
+    left: 20px;
+}
+
+.envelope {
+    position: relative;
+    top: -10px;
+    left: 60px;
+}
+
+.phone {
+    position: relative;
+    top: -10px;
+    left: 60px;
+}
+.map {
+    position: relative;
+    top: -10px;
+    left: 60px;
+}
+
+
